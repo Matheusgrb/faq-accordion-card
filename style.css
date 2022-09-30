@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(-90deg, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 1200px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+
+.text {
+    width: 500px;
+    height: 300px;
+    margin-right: 100px;
+}
+
+#parent {
+    position: relative;
+    height: 100%;
+    width: 50%;
+    
+}
+
+.woman {
+    width: 600px;
+    height: 50%;
+    
+    position: relative;
+}
+
+.woman-img {
+    width: 600px;
+    height: 450px;
+    margin-left: -95px;
+    margin-top: 100px;
+    
+    
+}
+
+.shadow {
+    width: 600px;
+    height: 50%;
+    position: absolute;
+    top: -10px;
+    right: 300px;
+    
+}
+
+.shadow-img {
+    width: 800px;
+    height: 700px;
+    border-radius: 20%;
+    
+}
